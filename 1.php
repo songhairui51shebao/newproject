@@ -16,5 +16,5 @@ echo "Data from the cache:\n";
 var_dump($memcache->get("key"));
 
 
-echo 1;
+echo 11;
 ?>
