@@ -12,9 +12,6 @@ $tmp_object->int_attr = 123;
 $memcache->set("key",$tmp_object,false,10);
 echo "Store data in the cache (data will expire in 10 seconds)\n";
 
-echo "Data from the cache:\n";
 var_dump($memcache->get("key"));
 
-
-echo 111111;
 ?>
