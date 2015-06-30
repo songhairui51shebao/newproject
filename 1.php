@@ -14,4 +14,9 @@ echo "Store data in the cache (data will expire in 10 seconds)\n";
 
 var_dump($memcache->get("key"));
 
+<<<<<<< HEAD
+=======
+
+echo 111111222222222222;
+>>>>>>> 1330de75d5de2863d93e77a276c8c56cefbcf687
 ?>
